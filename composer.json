@@ -1,0 +1,20 @@
+{
+    "name": "flickerleap/php-engineer-test",
+    "description": "A test for potential PHP Engineers to make things at Flicker Leap.",
+    "type": "project",
+    "require": {
+        "symfony/debug": "^3.3",
+        "nategood/httpful": "^0.2.20"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Seagyn Davis",
+            "email": "seagyn@flickerleap.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"FlickerLeap\\": "includes/"}
+    }
+}
