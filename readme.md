@@ -55,5 +55,6 @@ Do a GET request to `http://pokeapi.co/api/v2/pokemon/mewtwo/` and output 3 item
 
 We believe in collective knowledge. Suggest a way (any constructive way) that can improve this test.
 
-##Work at Flicker Leap
+## Work at Flicker Leap
+
 Want to work with our tech team? We obviously supply things like coffee and tea. However, what we are is a team of people that love technology and learning. If that tickles your fancy then why not find a role for you [here](https://flickerleap.com/about-us/careers/)
