@@ -59,7 +59,7 @@ abstract class Shape
     }
     
     /**
-     * Outputs padding (space) depnding on the length given
+     * Outputs padding (space) depending on the length given
      *
      * @param int $length
      * @return string
