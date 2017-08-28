@@ -1,5 +1,9 @@
 # Flicker Leap PHP Engineer Test
 
+## About
+
+This test has been designed to test the fundamentals required for PHP Engineers to work at [Flicker Leap](https://flickerleap.com). This test is continuously being updated to further test the fundamentals of being a PHP Engineer.
+
 ## We will test for the following:
 
 1. Ability to work with version control
@@ -45,7 +49,7 @@ Extend the Shape class to create a diamond that works with any passed length.
 
 ### 6. Fix a class
 
-Fix the Rectangle class. It has a number of coding standards errors, syntax errors and logic errors.
+Fix the Rectangle class. The rectangle that should be drawn should have its longest side twice as long as the shortest. It has a number of coding standards errors, syntax errors and logic errors.
 
 ### 7. Use Httpful to do an API call
 
@@ -58,3 +62,9 @@ We believe in collective knowledge. Suggest a way (any constructive way) that ca
 ## Work at Flicker Leap
 
 Want to work with our tech team? We obviously supply things like coffee and tea. However, what we are is a team of people that love technology and learning. If that tickles your fancy then why not find a role for you [here](https://flickerleap.com/about-us/careers/)
+
+## License
+
+This test is released under the MIT Public License.
+
+Note: The "About" section in README.md not be edited or deleted without permission. For details, please see License.
