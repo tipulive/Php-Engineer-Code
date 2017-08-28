@@ -23,6 +23,8 @@ This test has been designed to test the fundamentals required for PHP Engineers 
 
 ## Test
 
+Note: Whilst you are not specifically given a time limit to complete the test, we do expect it to be done sooner rather than later. When we are notified of the fork, we would be expecting the test back in the next week or so.
+
 ### 0. Please use the PSR2 coding standards if you know them. If you don't, that's OK - *it will not count against you.*
 
 ### 1. Fork this repo
