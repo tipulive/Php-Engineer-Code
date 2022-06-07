@@ -18,9 +18,10 @@ class Rectangle extends Shape
      */
     public function __construct($length = 5) {
         $this->name = 'Rectangle';
-        $this->sides = 4;
+        //$this->sides = 4;
         $this->sideLength = $length;
         $this->pixel = "*";
+        $this->LongestSide=2; //here longest Side will be twice,but you can change to any number
     }
 
     /**
@@ -33,18 +34,20 @@ class Rectangle extends Shape
     }
 
     /**
-     * Draws the square.
+     * Draws the Rectangle.
      */
-    public function draw()
+    public function draw() 
     {
         for ($i = 0; $i < $this->sideLength; $i++)
         {
-            for ($j = 0; $j < $this->sideLength; $j++) {
+            for ($j = 0; $j < ($this->sideLength*$this->LongestSide); $j++) {
                 if ($i == 0
                     || $j == 0
                     || $i == $this->sideLength - 1
-                    || $j == $this->sideLength * 2 - 1) {
-                    echo $this->pixel; // TODO: Fix alignment at some point
+                    
+                    || $j == ($this->sideLength*$this->LongestSide) -1) {
+                  
+                    echo $this->pixel . $this->padding(2);
                 } else {
                     echo $this->padding(4);
                 }

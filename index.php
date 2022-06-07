@@ -53,6 +53,10 @@ use FlickerLeap\square;
 
         <?php
             // output your working rectangle here
+            $MyRectangle = new Rectangle();
+            $MyRectangle->displayName();
+            echo "<br />";
+            $MyRectangle->draw();
         ?>
 
         <h2>Output the result of the API</h2>
