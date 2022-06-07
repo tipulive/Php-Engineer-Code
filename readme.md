@@ -1,5 +1,10 @@
 # Flicker Leap PHP Engineer Test
 
+
+# Preview 
+
+![gif demo](https://user-images.githubusercontent.com/80526946/172454290-2c06d88f-3cd0-4234-9124-b7f737b4d5a9.gif)
+
 ## About
 
 This test has been designed to test the fundamentals required for PHP Engineers to work at [Flicker Leap](https://flickerleap.com). This test is continuously being updated to further test the fundamentals of being a PHP Engineer.
