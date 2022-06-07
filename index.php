@@ -10,6 +10,7 @@ require __DIR__ . '/vendor/autoload.php';
 use FlickerLeap\Diamond;
 use FlickerLeap\Rectangle;
 use FlickerLeap\square;
+use FlickerLeap\Service;
 
 ?>
 <!DOCTYPE html>
@@ -63,6 +64,18 @@ use FlickerLeap\square;
 
         <?php
             // Use the Httpful client to output the API results here.
+
+            $MyApi=new Service();
+            $MyApi->displayName();
+            echo "<br />";
+            $MyApi->ApiCall();
+            $responseData=json_decode($MyApi->ApiCall(),false); 
+           // echo $responseData->abilities[0]->ability->name;
+            echo "<ul>
+            <li>id:{$responseData->id}</li>
+            <li>Name:{$responseData->name}</li>
+            <li>Order:{$responseData->order}</li>
+            </ul>";
         ?>
 
         <h2>Recommendations</h2>
