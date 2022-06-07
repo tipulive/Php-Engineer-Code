@@ -16,10 +16,10 @@ class Square extends Shape
      *
      * @param int $length
      */
-    public function __construct($length = 5)
+    public function __construct($length = 10)// i did change length to be able to have Square which has 10 "pixels" wide.
     {
         $this->name = 'Square';
-        $this->sides = 4;
+       // $this->sides = 4;
         $this->sideLength = $length;
         $this->pixel = "*";
     }
