@@ -42,6 +42,11 @@ use FlickerLeap\square;
 
         <?php
             // output your diamond here
+
+            $MyDiamond = new Diamond();
+            $MyDiamond->displayName();
+            echo "<br />";
+            $MyDiamond->draw();
         ?>
 
         <h2>Output your rectangle</h2>
