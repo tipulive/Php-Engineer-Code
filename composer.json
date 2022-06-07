@@ -3,7 +3,8 @@
     "description": "A test for potential PHP Engineers to make things at Flicker Leap.",
     "type": "project",
     "require": {
-        "symfony/debug": "^3.3"
+        "symfony/debug": "^3.3",
+        "nategood/httpful": "^0.3.2"
     },
     "license": "GPL",
     "authors": [
